@@ -5,5 +5,4 @@ xlrd==1.2.0
 openpyxl==3.0.3
 wget
 bs4
-shutil
 datetime
