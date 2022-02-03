@@ -74,7 +74,7 @@ def proceso():
         dfFinal = pd.concat(salida)
         dfFinal.to_excel(r"Consolidado/Consolidado.xlsx", index=False)
         shutil.copy (r'Consolidado/Consolidado.xlsx', f"Legacy/Consolidado_{datetime.datetime.now().strftime('%Y-%m-%d')}.xlsx")
-        return 
+    return 
 
 if __name__ == '__main__':
     try:
